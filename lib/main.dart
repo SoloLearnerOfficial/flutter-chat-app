@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
   late NavigationService _navigationService;
   late AuthService _authService;
   GetIt getIt = GetIt.instance;
+
   MyApp() {
     _navigationService = getIt.get<NavigationService>();
     _authService = getIt.get<AuthService>();
